@@ -1,0 +1,72 @@
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.font-quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+.bg-black{
+  background-color: black;
+}
+.text-green{
+  color: #99cc33;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white!important;
+}
+.top-bar-right a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-bar-left p,img{
+  padding-top: 2px;
+}
+.top-bar{
+  background-color: #1A1A1A;
+  height: 30px;
+  color: white;
+}
+.section-top-margin{
+	margin-top: 40px;
+}
+.padding-top-twenty{
+	padding-top: 30px;
+}
+#footer{
+  background-image: url(https://www.caritasindia.org/wp-content/uploads/2019/01/caritas-india-farm-northeast-bamboo-house.jpg);
+  background-size: cover;
+  height: 22em;
+  color: white;
+  width: 100%!important;
+}
+.footer-cp-link a{
+  text-decoration: none;
+  color: white;
+}
+.footer-social-media a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+hr{
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+.blogview-hr{
+  background-color: #99cc33;
+  width: 60%;
+  opacity: 40%;
+}
+
+
+@media screen and (max-width: 768px){
+  #footer{
+    height: 28em;
+  }
+  .policies{
+    margin-top: 20px;
+  }
+}

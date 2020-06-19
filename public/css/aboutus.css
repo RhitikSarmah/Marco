@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+}
+.font-raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.font-quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+.bg-black{
+  background-color: black;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white!important;
+}
+.top-bar-right a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-bar-left p,img{
+  padding-top: 2px;
+}
+.top-bar{
+  background-color: #1A1A1A;
+  height: 30px;
+  color: white;
+}
+.section-top-margin{
+  margin-top: 40px;
+}
+.padding-top-twenty{
+  padding-top: 30px;
+}
+.about-top{
+  background-image: url(https://www.newsclick.in/sites/default/files/2017-12/BAMBOO.jpg);
+  height: 60vh;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.about-main-text{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.about-top h5{
+  position: absolute;
+  bottom: -8px;
+  background-color: rgba(0,0,0,0.75);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 16px;
+}
+#footer{
+  background-image: url(https://www.caritasindia.org/wp-content/uploads/2019/01/caritas-india-farm-northeast-bamboo-house.jpg);
+  background-size: cover;
+  height: 22em;
+  color: white;
+  width: 100%!important;
+}
+.footer-cp-link a{
+  text-decoration: none;
+  color: white;
+}
+.footer-social-media a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.bottom-text h2{
+  color: #99cc33;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+}
+hr{
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+@media screen and (max-width: 768px){
+  #footer{
+    height: 28em;
+  }
+  .about-top{
+    height: 100vh;
+  }
+  .policies{
+    margin-top: 20px;
+  }
+}
+
+
+.section-text-top{
+  background-color: #F1FAF3;
+  border-radius: 50px;
+  display: inline-block;
+  font-size: 14px;
+  color: #99CC33;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: 'Raleway', sans-serif;
+}
+.section-top-margin{
+  margin-top: 50px;
+}

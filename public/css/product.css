@@ -1,0 +1,105 @@
+.bg-black{
+  background-color: black;
+}
+.top-bar-right a{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.top-bar-left p,img{
+  padding-top: 2px;
+}
+.top-bar{
+  background-color: #1A1A1A;
+  height: 30px;
+  color: white;
+}
+.product-top{
+	background-image: url(https://www.newsclick.in/sites/default/files/2017-12/BAMBOO.jpg);
+	height: 90vh;
+	background-size: cover;
+  position: relative;
+  text-align: center;
+}
+.product-top h5{
+	position: absolute;
+	bottom: -8px;
+  background-color: rgba(0,0,0,0.75);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.navbar-toggler{
+  outline: none!important;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white!important;
+}
+.col-md-3{
+  margin-top: 30px;
+}
+#footer{
+  background-image: url(https://inteng-storage.s3.amazonaws.com/img/iea/Z3G8MKEz6m/sizes/bamboo_resize_md.jpg);
+  background-size: cover;
+  height: 22em;
+  color: white;
+}
+.footer-top-margin{
+  padding-top: 30px; 
+  margin-top: 80px;
+}
+.padding-top-twenty{
+  padding-top: 20px;
+}
+.footer-cp-link a{
+  text-decoration: none;
+  color: white;
+}
+.footer-social-media a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+hr{
+  width: 60%;
+  height: 1px;
+  background-color: white;
+}
+@media screen and (max-width: 768px){
+   #footer{
+    height: 28em;
+  }
+  .policies{
+    margin-top: 20px;
+  }
+}
+
+
+.projects-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.projects-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+  }
